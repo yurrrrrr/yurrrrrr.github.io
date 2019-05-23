@@ -1,0 +1,42 @@
+/* tabmenu */
+.tabgroup{
+
+}
+.tabmenu{
+	position:relative;
+	height:50px;
+	border-bottom:1px solid #222;
+}
+.tabmenu::after{
+	content:"";
+	clear:both;
+	display:block;
+}
+.tabmenu > li{
+	display:inline-block;
+	float:left;
+	width:50%;
+}
+.tabmenu > li > a{
+	display:inline-block;
+	width:100%;
+	height:49px;
+	line-height:50px;
+	text-align:center;
+	font-size:15px;
+	background-color:#f4f4f4;
+}
+.tabcnt{
+	display:none;
+	min-height:700px;
+}
+/* tabmenu - 활성화 */
+.tabmenu > .on{
+
+}
+.tabmenu > .on > a{
+
+}
+.tabcnt.on{
+	display:block;
+}
