@@ -144,6 +144,7 @@ body{
 	left: 0;
 	width: 100%;
 	text-align: center;
+	font:#fff;
 	transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
